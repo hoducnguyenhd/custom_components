@@ -1,0 +1,49 @@
+say:
+  name: Nói văn bản bằng FPT.AI TTS
+  description: Chuyển văn bản thành giọng nói tiếng Việt và phát lên thiết bị media_player.
+  fields:
+    entity_id:
+      name: Thiết bị phát
+      description: ID của media_player để phát giọng nói.
+      required: true
+      example: media_player.living_room
+      selector:
+        entity:
+          domain: media_player
+
+    message:
+      name: Nội dung
+      description: Văn bản tiếng Việt muốn chuyển thành giọng nói.
+      required: true
+      example: "Chào buổi sáng!"
+      selector:
+        text:
+
+    voice_type:
+      name: Kiểu giọng
+      description: Chọn vùng miền và giới tính cho giọng nói.
+      required: false
+      example: "nu_mien_trung"
+      selector:
+        select:
+          options:
+            - label: Nam miền Bắc (Lê Minh)
+              value: nam_mien_bac
+            - label: Nữ miền Bắc (Ban Mai)
+              value: nu_mien_bac
+            - label: Nữ miền Nam (Lan Nhi)
+              value: nu_mien_nam
+            - label: Nữ miền Trung (Mỹ An)
+              value: nu_mien_trung
+
+    speed:
+      name: Tốc độ đọc
+      description: Tốc độ nói từ -3 (rất chậm) đến 3 (rất nhanh). Mặc định lấy từ configuration.yaml nếu không điền.
+      required: false
+      example: "1"
+      selector:
+        number:
+          min: -3
+          max: 3
+          step: 0.5
+          mode: slider
