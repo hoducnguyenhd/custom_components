@@ -1,0 +1,7 @@
+{
+  "domain": "lichvansu",
+  "name": "Lịch Vạn Sự việt Nam",
+  "documentation": "https://www.home-assistant.io",
+  "codeowners": ["@vlxxx"],
+  "quality_scale": "internal"
+}
