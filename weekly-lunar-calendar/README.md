@@ -10,7 +10,7 @@ Chọn sửa bảng điều khiển trên góc phải -> chọn dấu "..." -> c
 Url: copy link bên dưới
 Loại tài nguyên: Mô-đun JavaScript 
 ```yaml
-https://raw.githubusercontent.com/lesydat/weekly-lunar-calendar/master/weekly-lunar-calendar.js
+https://github.com/hoducnguyenhd/custom_components/blob/main/weekly-lunar-calendar/weekly-lunar-calendar.js
 ```
 Thêm một custom card vào lovelace 
 ```yaml
