@@ -1,5 +1,5 @@
 say:
-  name: Nói văn bản bằng ZALO.AI TTS
+  name: ZALO.AI TTS
   description: Chuyển văn bản thành giọng nói tiếng Việt và phát lên thiết bị media_player.
   fields:
     entity_id:
