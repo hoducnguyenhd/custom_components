@@ -1,8 +1,5 @@
 # encoding: utf-8
 '''
-=== Lunar calendar on Home Assistant by exlab ===
-============ Date 11/03/2019 ====================
-=== Mod by thangnd85
 --------
 #1 Copy sensor.py to {your_config folder}\custom_components\lich_am\
 #2 Setup in configuration.yaml 
