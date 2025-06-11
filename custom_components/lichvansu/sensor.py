@@ -1,4 +1,4 @@
-""" @trumxuquang@gmail.com
+""" @hoducnguyenhd
 # Config in configuration.yaml file for Home Assistant
 sensor:
   - platform: lichvansu
