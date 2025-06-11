@@ -1,9 +1,9 @@
 {
 "domain": "zalo_tts",
-"name": "Vietnamese TTS with ZALO.AI",
+"name": "ZALO.AI TTS",
 "documentation": "",
 "dependencies": [],
-"codeowners": [],
+"codeowners": [@hoducnguyenhd],
 "requirements": ["requests"],
 "version": "0.1.0"
 }
