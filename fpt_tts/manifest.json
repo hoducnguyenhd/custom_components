@@ -3,7 +3,7 @@
   "name": "Vietnamese TTS with FPT.AI",
   "version": "1.0.0",
   "requirements": ["requests>=2.25.1"],
-  "codeowners": [],
+  "codeowners": [@hoducnguyenhd],
   "dependencies": [],
   "documentation": "https://fpt.ai"
 }
